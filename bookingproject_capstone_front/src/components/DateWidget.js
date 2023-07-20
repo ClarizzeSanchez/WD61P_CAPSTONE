@@ -6,7 +6,7 @@ function DateWidget() {
 
   return (
     <div className="date-widget">
-      <h2>Today's Date</h2>
+      <h2>Today</h2>
       <p>{currentDate}</p>
     </div>
   );

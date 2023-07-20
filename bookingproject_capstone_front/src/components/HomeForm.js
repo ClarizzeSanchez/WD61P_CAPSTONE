@@ -9,7 +9,7 @@ function HomeForm() {
   };
 
   return (
-    <div className='hero-container'>
+    <div className='home-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted className='video-background' /> */}
       <img src='/images/bus4.avif' alt='image' className='image-background'/>
       <div className='content-container'>
