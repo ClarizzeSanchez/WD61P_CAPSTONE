@@ -7,7 +7,7 @@ function Navbar() {
     <nav className='navbar'>
       <div className='navbar-container'>
         <Link to='/' className='navbar-logo'>
-          Proj 
+          PITX
         </Link>
         <ul className='nav-menu'>
           <li className='nav-item'>
@@ -23,11 +23,6 @@ function Navbar() {
           <li className='nav-item'>
             <Link to='/booking' className='nav-links'>
               Booking
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/header' className='nav-links'>
-              Header
             </Link>
           </li>
           <li className='nav-item'>

@@ -4,6 +4,8 @@ import './App.css';
 import Home from './components/Home/HomePage';
 import DateWidget from './components/DateWidget';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import BookingPage from './components/Booking/BookingPage';
+
 
 
 function App() {
@@ -11,10 +13,10 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Home/>
         <DateWidget />
         <Routes>
-          <Route path='/' exact component={Home} />
+          <Route path='/' element={<Home/>} />
+          <Route path='/booking' element={<BookingPage />} />
         </Routes>
       </Router>
     </>
