@@ -1,0 +1,16 @@
+body {
+    color: #fff;
+}
+
+.navbar-bg {
+    background-color: rgb(23, 88, 111);
+}
+
+.nav-content {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-content:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
